@@ -1,0 +1,29 @@
+/* Titre léger */
+h1 {
+  font-weight: 300;
+}
+
+/* Le tableau doit occuper 100% de la largeur */
+table {
+  width: 100% !important;
+  margin: 0;
+}
+
+/* Scroll horizontal si trop de colonnes */
+#tableContainer {
+  overflow-x: auto !important;
+  width: 100%;
+}
+
+/* En-tête collante quand on scrolle (optionnel mais pratique) */
+thead th {
+  position: sticky;
+  top: 0;
+  background: #f8f9fa;
+  z-index: 2;
+}
+
+/* Taille du tableau légèrement réduite */
+.table {
+  font-size: 0.95rem;
+}
